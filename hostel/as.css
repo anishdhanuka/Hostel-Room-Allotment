@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family:sans-serif;
+  
+#login{
+  border-radius: 8px;
+  padding: 10px 20px 20px 20px;
+  margin:100px;
+  width: 90%;
+  max-width: 320px;
+  position: relative;
+  padding-bottom: 80px;
+  box-shadow: 10px 10px 10px 10px rgba(0.3, 0.3, 0.3, 0.3);
+  background-color:blue;
+  
+}
+input {
+  display: block;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  transition: border-width 0.2s ease;
+  border-radius: 2px;
+  color: blue;
+}
+::-moz-placeholder{
+  color: pink;
+}
+.title {
+  color: white;
+  font-size: 30px;
+  margin: 20px 0 60px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+button {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  background: green;
+  color: white	;
+  display: block;
+  border: none;
+  margin-top: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-height: 60px;
+  border: 0px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 2px 2px;
+  transform: rotateZ(0deg);
+  transition: all 0.1s ease-out;
+  border-bottom-width: 7px;
+  cursor:pointer;
+}
